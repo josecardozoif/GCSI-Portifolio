@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Magic;
+    src: url(../fonts/Beleren2016-Bold.ttf);
+}
+
+body {
+    background-image: url(../eldrazibg.png);
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: rgba(0,2,36,1);
+    height: 20%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    justify-content: center;
+    color: #FFF;
+    padding: 20px;
+    margin-left: 10%;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: 'Magic';
+}
+
+nav ul li a:hover {
+    background-color: rgba(169,4,37,1);
+}
