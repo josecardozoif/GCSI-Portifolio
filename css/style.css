@@ -5,6 +5,7 @@
 
 body {
     background-image: url(../eldrazibg.png);
+    background-repeat: no-repeat;
 }
 
 * {
@@ -16,6 +17,7 @@ body {
 nav{
     background-color: rgba(0,2,36,1);
     height: 20%;
+    width: 100%;
 }
 
 nav ul {
@@ -31,7 +33,7 @@ nav ul li a {
     justify-content: center;
     color: #FFF;
     padding: 20px;
-    margin-left: 10%;
+    margin-left: 5%;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
