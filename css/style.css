@@ -20,8 +20,9 @@ body {
 
 nav{
     background-color: #42355c;
-    height: 20%;
+    height: 79px;
     width: 100%;
+    box-shadow: 10px 5px 5px black;
 }
 
 nav ul {
@@ -37,16 +38,22 @@ nav ul li a {
     justify-content: center;
     color: #FFF;
     padding: 20px;
-    margin-left: 5%;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
     font-family: 'Magic';
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 nav ul li a:hover {
     background-color: #2a2536;
+}
+
+#mtglogo {
+    float: right;
+    margin-right: 1%;
+    margin-top: 0.5%;
+    height: 60px;
 }
 
 .thetitle {
