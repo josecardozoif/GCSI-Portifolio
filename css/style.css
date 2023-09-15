@@ -20,11 +20,13 @@ body {
 
 #header {
     margin-top: 3%;
+    min-width: 800px;
+    min-height: 1200px;
 }
 
 #hdlogo {
     width: 70%;
-    height: 800px;
+    height: 50%;
     margin-left: 16%;
     margin-right: 10%;
     border-radius: 10px;
@@ -34,17 +36,22 @@ body {
     background-color: #1a1625;
     color: #9579cc;
     width: 70%;
-    height: 400px;
+    height: 60%;
+    min-width: 400px;
     padding: 3%;
     margin-left: 16%;
     margin-right: 10%;
     text-decoration: none;
     transition: background .4s;
     font-family: 'Magic';
-    font-size: xx-large;
+    font-size: x-large;
     border-radius: 10px;
     box-shadow: 0px 5px 5px black;
     text-align: center;
+}
+
+#hdtext {
+    min-width: 400px;
 }
 
 nav{
