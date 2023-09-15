@@ -99,6 +99,9 @@ nav ul li a:hover {
 }
 
 #nftback {
+    border: solid black 15px;
+    border-radius: 20px;
+    background-color:#461726;
     transform: rotateY( 180deg );
     width: 20%;
     height: 600px;
