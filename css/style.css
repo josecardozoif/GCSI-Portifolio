@@ -64,6 +64,7 @@ nav ul li a:hover {
     padding: 20px;
     font-family: 'Magic';
     background-color: #2a2536;
+    box-shadow: 5px 5px 5px black;
 }
 
 #cardnft {
@@ -71,7 +72,7 @@ nav ul li a:hover {
     height: 600px;
     margin-top: 5%;
     min-width: 380px;
-    perspective: 500px;
+    perspective: 3000px;
 }
 
 #nftcontent {
@@ -88,6 +89,7 @@ nav ul li a:hover {
     border: solid black 15px;
     border-radius: 20px;
     background-color:#42355c;
+    box-shadow: 0px 10px rgb(88, 40, 230);
 }
 
 #nftfront, #nftback{
@@ -106,6 +108,7 @@ nav ul li a:hover {
     width: 20%;
     height: 600px;
     min-width: 380px;
+    box-shadow: 0px 10px rgb(230, 40, 94);
 }
 
 .verso {
