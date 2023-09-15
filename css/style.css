@@ -220,7 +220,7 @@ nav ul li a:hover {
     height: 600px;
     margin-top: 5%;
     min-width: 380px;
-    perspective: 500px;
+    perspective: 3000px;
     display: inline;
 }
 
