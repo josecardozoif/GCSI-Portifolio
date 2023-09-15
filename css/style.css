@@ -18,11 +18,40 @@ body {
     box-sizing: border-box;
 }
 
+#header {
+    margin-top: 3%;
+}
+
+#hdlogo {
+    width: 70%;
+    height: 800px;
+    margin-left: 16%;
+    margin-right: 10%;
+    border-radius: 10px;
+}
+
+#hdback {
+    background-color: #1a1625;
+    color: #9579cc;
+    width: 70%;
+    height: 400px;
+    padding: 3%;
+    margin-left: 16%;
+    margin-right: 10%;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: 'Magic';
+    font-size: xx-large;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px black;
+    text-align: center;
+}
+
 nav{
     background-color: #42355c;
     height: 79px;
     width: 100%;
-    box-shadow: 10px 5px 5px black;
+    box-shadow: 10px 10px 5px black;
 }
 
 nav ul {
